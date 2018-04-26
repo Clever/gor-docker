@@ -5,7 +5,7 @@ machine:
   - docker
 compile:
   override:
-  - make build
+  - echo 0
 test:
   override:
   - echo 0
