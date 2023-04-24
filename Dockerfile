@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 # Certificates needed for https requests, to avoid
 # "x509: failed to load system roots and no roots provided" error.
